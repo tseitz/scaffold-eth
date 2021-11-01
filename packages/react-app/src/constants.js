@@ -1,8 +1,8 @@
 // MY INFURA_ID, SWAP IN YOURS FROM https://infura.io/dashboard/ethereum
-export const INFURA_ID = "460f40a260564ac4a4f4b3fffb032dad";
+export const INFURA_ID = "8e8e8f02b24a47a59c69cdab96240e92";
 
 // MY ETHERSCAN_ID, SWAP IN YOURS FROM https://etherscan.io/myapikey
-export const ETHERSCAN_KEY = "PSW8C433Q667DVEX5BCRMGNAH9FSGFZ7Q8";
+export const ETHERSCAN_KEY = process.env.SCAFFOLD_ETHERSCAN_API_KEY;
 
 // BLOCKNATIVE ID FOR Notify.js:
 export const BLOCKNATIVE_DAPPID = "0b58206a-f3c0-4701-a62f-73c7243e8c77";
@@ -165,7 +165,7 @@ export const NETWORKS = {
     chainId: 43114,
     blockExplorer: "https://cchain.explorer.avax.network/",
     rpcUrl: `https://api.avax.network/ext/bc/C/rpc`,
-    gasPrice: 25000000000,
+    gasPrice: 225000000000,
   },
   testnetHarmony: {
     name: "Harmony Testnet",
